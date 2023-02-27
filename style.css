@@ -1,6 +1,7 @@
 body {
   background-color: hsl(0, 0%, 0%);
   color: hsl(216, 12%, 54%);
+  font-family: "Outfit", sans-serif;
 }
 
 .container {
@@ -12,6 +13,7 @@ body {
   height: auto;
   background-color: hsl(216, 12%, 8%);
   padding: 10px;
+  padding-left: 10px;
   padding-bottom: 30px;
   border-radius: 10px;
 }
@@ -26,8 +28,9 @@ p {
 
 .rating {
   display: flex;
-  justify-content: center;
-  column-gap: 15px;
+  /* justify-content: center; */
+  column-gap: 20px;
+  margin-left: 5px;
 }
 
 .r1 {
@@ -35,8 +38,8 @@ p {
   justify-content: center;
   align-items: center;
   background-color: hsl(213, 19%, 18%);
-  width: 2em;
-  height: 2em;
+  width: 2.5em;
+  height: 2.5em;
   border-radius: 50%;
 }
 
@@ -53,20 +56,26 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 5px;
 }
 
-.submitBtn {
+/* .submit {
   display: flex;
   justify-content: center;
-}
-.submitBtn button {
+} */
+.submitbtn {
   color: hsl(0, 0%, 100%);
   background-color: hsl(25, 97%, 53%);
-  width: 16rem;
-  border-radius: 10px;
+  width: 18rem;
+  border-radius: 20px;
   padding: 10px;
+  margin-left: 5px;
   margin-top: 30px;
   border: none;
+}
+
+.submitbtn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
 }
