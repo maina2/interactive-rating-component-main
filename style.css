@@ -1,0 +1,72 @@
+body {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(216, 12%, 54%);
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  background-color: hsl(216, 12%, 8%);
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.content {
+  margin: 5px 5px 10px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+.r1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 18%);
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+
+.r2:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.r2:visited {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+}
+.submitBtn button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  width: 16rem;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+}
