@@ -1,7 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: hsl(0, 0%, 0%);
   color: hsl(216, 12%, 54%);
   font-family: "Outfit", sans-serif;
+}
+.hidden {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .container {
@@ -19,11 +31,12 @@ body {
 }
 
 p {
+  margin-top: 1rem;
   font-size: 15px;
 }
 
 .content {
-  margin: 5px 5px 10px;
+  margin: 10px 10px;
 }
 
 .rating {
